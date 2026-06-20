@@ -443,6 +443,9 @@ export const AdminDashboard = () => {
                   <th style={{ padding: "1rem", textAlign: "left" }}>Ticket #</th>
                   <th style={{ padding: "1rem", textAlign: "left" }}>Issue</th>
                   <th style={{ padding: "1rem", textAlign: "left" }}>Category</th>
+                  <th style={{ padding: "1rem", textAlign: "left" }}>Platform</th>
+                  <th style={{ padding: "1rem", textAlign: "left" }}>Contact Email</th>
+                  <th style={{ padding: "1rem", textAlign: "left" }}>Source URL</th>
                   <th style={{ padding: "1rem", textAlign: "left" }}>Priority</th>
                   <th style={{ padding: "1rem", textAlign: "left" }}>Status</th>
                   <th style={{ padding: "1rem", textAlign: "left" }}>Created At</th>
@@ -455,6 +458,13 @@ export const AdminDashboard = () => {
                     <td style={{ padding: "1rem", fontSize: "1.2rem", color: "#94a3b8" }}>#{t._id.slice(-6).toUpperCase()}</td>
                     <td style={{ padding: "1rem" }}>{t.title}</td>
                     <td style={{ padding: "1rem" }}>{t.aiCategory || t.category || "Not Provided"}</td>
+                    <td style={{ padding: "1rem" }}>{t.platform || "Not Provided"}</td>
+                    <td style={{ padding: "1rem" }}>{t.contactEmail || t.email || "Not Provided"}</td>
+                    <td style={{ padding: "1rem" }}>
+                      {t.sourceUrl ? (
+                        <a href={t.sourceUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>{t.sourceUrl}</a>
+                      ) : "Not Provided"}
+                    </td>
                     <td style={{ padding: "1rem" }}>
                        <select 
                           value={t.priority} 
