@@ -17,7 +17,7 @@ An intelligent helpdesk and ticketing platform designed to streamline customer s
 - Database: MongoDB
 
 ## Running locally
-
+Can be used by users which are working and have no time 
 ```bash
 make install
 make run
