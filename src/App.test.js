@@ -1,3 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+
 test('sample test passes', () => {
-  expect(true).toBe(true);
+  assert.equal(true, true);
 });
