@@ -26,5 +26,5 @@ make run
 ```
 ## Deployment
 
-- **Live URL**: https://devops-24eskcs111.vercel.app
-- **Screenshot**: ![Deployment](docs/deployment.png)
+- Live URL: https://devops-24eskcs111.vercel.app
+- Screenshot: ![Deployment](docs/deployment.png)
