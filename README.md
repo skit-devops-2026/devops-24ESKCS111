@@ -24,8 +24,7 @@ Designed for busy support professionals to quickly deploy and test workflows.
 make install
 make run
 ```
+
 ## Deployment
 
-Live URL: https://devops-24eskcs111.vercel.app
-
-![Deployment](docs/deployment.png)
+- **Live URL**: [https://devops-24eskcs111.vercel.app/](https://devops-24eskcs111.vercel.app/)
